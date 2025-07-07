@@ -1,6 +1,6 @@
 # ServerStatus中文版：   
 
-* ServerStatus中文版是一个酷炫高逼格的云探针、云监控、服务器云监控、多服务器探针~。
+* ServerStatus中文版是一个酷炫高逼格的云探针、云监控、服务器云监控、多服务器探针~。。
 * 在线演示：https://tz.cloudcpp.com    
 
 [![Python Support](https://img.shields.io/badge/python-3.6%2B%20-blue.svg)](https://github.com/cppla/ServerStatus)
@@ -95,13 +95,13 @@ cd ServerStatus/server && make
 		{
 			"name": "监测网站，默认为一天在线率",
 			"host": "https://www.baidu.com",
-			"interval": 300,
+			"interval": 1200,
 			"type": "https"
 		},
 		{
 			"name": "监测tcp服务端口",
-			"host": "114.114.114.114:53",
-			"interval": 300,
+			"host": "1.1.1.1:80",
+			"interval": 1200,
 			"type": "tcp"
 		}
 	],
